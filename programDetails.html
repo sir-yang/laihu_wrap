@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>票务小程序</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lhPhone.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container-fluid">
+    
+    <!-- header -->
+      <header id="header_box">
+        <div id="header">
+          <div class="header_box">
+            <img class="logo_img" src="images/logo.png" alt="logo_img">
+            <div class="logo_text">
+              <h2 class="size-30 color-555 no-margin">来乎科技</h2>
+              <span class="size-20 color-999">一键生成微信小程序</span>
+            </div>
+          </div>
+          <img class="menu_img menu" src="images/menu.png" alt="menu_img">
+          <img class="menu_close_img menu hide" src="images/menu_close.png" alt="">
+        </div>
+
+      <!-- 面包屑 -->
+        <div class="menu_title">
+          <div>
+            <a href="index.html"></a>
+            <a href="program.html" class="size-30 color-blue">解决方案</a>
+            <span class="size-30 color-666">&raquo;</span>
+            <span class="size-30 color-666">票务小程序</span>
+          </div>
+          <a type="button" href="index.html#cooperation" class="menu_btn">我要合作</a>
+        </div> 
+      </header>
+    
+    <!-- 解决上面浮动问题 -->
+      <div class="emptyBox"></div>
+
+
+
+    <!-- 内容部分 -->
+      <div class="ticket_program_container">
+        
+        <!-- banner -->
+        <section>
+          <div class="ticket_program_banner">
+            <h4 class="size-36 color-white text-center">一站式票务、活动小程序</h4>
+            <p class="size-24 color-white text-center">活动发布、在线报名、微信支付、快速核销<br />现场签到、客户管理、名单导出、活动营销 </p>
+            <img src="images/program_pw_banner.png" alt="">
+          </div>
+        </section>
+
+
+        <section>
+          <div class="ticket_program_content bor-rad-5">
+          <!-- 传统三大痛点 -->
+            <div class="ticket_program_one">
+                <div class="ticket_program_title">传统模式下的三大痛点</div>
+                <div class="ticket_program_one_list mt-100">
+                  <div class="ticket_program_second_item bor-rad-5">
+                    <div class="painPoints_box bg-td-1">
+                      <img src="images/painPoints_1.png" alt="">
+                    </div>
+                    <div class="serialNumber color-td-1 bor-td-1 radius-50">1</div>
+                    <div class="painPoints_text">
+                      <span class="bg-red">痛点1</span>
+                      <span>售票窗口拥堵，取票耗时长</span>
+                    </div>
+                    <div class="program_text">
+                      <span class="bg-green">解决方案</span>
+                      <span>线上售电子票，即时预约，分流窗口压力</span>
+                    </div>
+                  </div>
+
+                  <div class="ticket_program_second_item bor-rad-5">
+                    <div class="painPoints_box bg-td-2">
+                      <img src="images/painPoints_2.png" alt="">
+                    </div>
+                    <div class="serialNumber color-td-2 bor-td-2 radius-50">2</div>
+                    <div class="painPoints_text">
+                      <span class="bg-red">痛点2</span>
+                      <span>人工验票效率低，替换闸机成本高</span>
+                    </div>
+                    <div class="program_text">
+                      <span class="bg-green">解决方案</span>
+                      <span>小程序&扫码验票，效率高，投入低</span>
+                    </div>
+                  </div>
+
+                  <div class="ticket_program_second_item bor-rad-5">
+                    <div class="painPoints_box bg-td-3">
+                      <img src="images/painPoints_3.png" alt="">
+                    </div>
+                    <div class="serialNumber color-td-3 bor-td-3 radius-50">3</div>
+                    <div class="painPoints_text">
+                      <span class="bg-red">痛点3</span>
+                      <span>依赖OTA或团购平台导流，无自主权</span>
+                    </div>
+                    <div class="program_text">
+                      <span class="bg-green">解决方案</span>
+                      <span>生成自己的小程序，沉淀客户，提高复购</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- 特色功能 -->
+            <div class="ticket_program_features">
+              <div class="ticket_program_title features-title">特色功能</div>
+              <div class="features_description">轻松管理活动报名，在线售票收款，人人分享得红包，现场签到核销，发布票务(活动)从未如此轻松！</div>
+              <div class="ticket_program_features_list">
+                <div class="ticket_program_features_item">
+                  <img src="images/features_1.png" alt="">
+                  <span class="title">活动发布</span>
+                  <span>支持票务设置、活动分类、自定义报名表单、名单导出，验票员设置，活动留言等</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_2.png" alt="">
+                  <span class="title">活动营销</span>
+                  <span>结合红包、优惠券、砸金蛋、大转盘等营销工具，提升用户活跃度，助力营收增长</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_3.png" alt="">
+                  <span class="title">快速核销</span>
+                  <span>微信小程序、PC端同步验票，支持二维码和数字码，支持批量验票</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_4.png" alt="">
+                  <span class="title">多账号运营</span>
+                  <span>实现多个帐号协同运营效率大大提升，操作日志有据可查</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_5.png" alt="">
+                  <span class="title">微信收款</span>
+                  <span>协助企业开通微信收款，无需通过第三方结算，活动收入直达企业指定账户</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_6.png" alt="">
+                  <span class="title">数据分析</span>
+                  <span>统计所有事件数据信息，用户资料，用户行为轨迹全记录</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_7.png" alt="">
+                  <span class="title">客户管理</span>
+                  <span>建立用户自定义标签；根据用户消费记录，互动频次，行为标签等，实现对用户精细化管理</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_8.png" alt="">
+                  <span class="title">消息提醒</span>
+                  <span>给用户发送验证码、红包、退款等提醒，提升用户操作体验，以获得更高的转化率</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_9.png" alt="">
+                  <span class="title">风格模板</span>
+                  <span>提供多种配色方案，提供各行业成熟的风格模板供你选择</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_10.png" alt="">
+                  <span class="title">自定义页面</span>
+                  <span>20多种功能模块自由组合，全可视化操作，实现每个页面的定制化</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_11.png" alt="">
+                  <span class="title">导航设置</span>
+                  <span>支持5个以内导航图标，可自由排序，可自定义导航，引导用户前往你期望的页面</span>
+                </div>
+                <div class="ticket_program_features_item">
+                  <img src="images/features_12.png" alt="">
+                  <span class="title">内容模块</span>
+                  <span>支持内容管理模块，像发布朋友圈一样，方便快捷的发布企业动态、行业资讯等</span>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 服务与支持 -->
+            <div class="fwandzc">
+              <div class="ticket_program_title fwandzc_title">服务与支持</div>
+              <div class="fwandzc_list">
+                <div class="fwandzc_item">
+                  <img src="images/fwandzc_icon_1.png" alt="">
+                </div>
+                <div class="fwandzc_item bg-green">
+                  <span>可靠</span>
+                  <span>四川来乎科技团队亲力打造，团队成员来自知名互联网公司，拥有多年创业经验</span>
+                </div>
+                <div class="fwandzc_item bg-blue">
+                  <span>专业</span>
+                  <span>专业的小程序第三方平台服务商，Web App技术领域的先行者</span>
+                </div>
+                <div class="fwandzc_item">
+                  <img src="images/fwandzc_icon_2.png" alt="">
+                </div>
+                <div class="fwandzc_item">
+                  <img src="images/fwandzc_icon_3.png" alt="">
+                </div>
+                <div class="fwandzc_item bg-pink">
+                  <span>服务</span>
+                  <span>完善的售后服务，7×24小时人工在线问题解答，保证无忧</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+
+
+
+
+    <!-- footer -->
+      <footer>
+        <div id="footer">
+          <div class="code_box">
+            <div>
+              <div class="img_box">
+                <img src="images/ewm.png" alt="">
+              </div>
+              <span class="glyphicon glyphicon-menu-up color-ft ptb-20"></span>
+              <span class="size-24 color-ft lt-sp-1">扫码关注公众号</span>
+            </div>
+            <div>
+              <div class="img_box">
+                <img src="images/xcx.png" alt="">
+              </div>
+              <span class="glyphicon glyphicon-menu-up color-ft ptb-20"></span>
+              <span class="size-24 color-ft lt-sp-1">扫码体验小程序</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- 返回顶部按钮 -->
+      <div class="backTop radius-50 hide" onclick="backTop()">
+        <img src="images/scrolltop.png" alt="">
+      </div>
+
+    </div>
+
+  <!-- 侧边导航 -->
+    <aside id="menu_box" class="hide">
+      <div class="menu_title">
+        <div>
+          <div>
+            <a href="index.html"></a>
+            <a href="program.html" class="size-30 color-blue">解决方案</a>
+            <span class="size-30 color-666">&raquo;</span>
+            <span class="size-30 color-666">票务小程序</span>
+          </div>
+        </div>
+        <a type="button" href="index.html#cooperation" class="menu_btn">我要合作</a>
+      </div>
+
+      <ul class="menu_list">
+        <li>
+          <a href="index.html">
+            <span>首页</span>
+            <img class="more" src="images/more.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;">
+            <span class="active">解决方案</span>
+            <img class="more" src="images/more.png" alt="">     
+          </a>     
+        </li>
+        <li>
+          <a href="daili.html">
+            <span>代理</span>
+            <img class="more" src="images/more.png" alt="">          
+          </a>
+        </li>
+        <li>
+          <a href="quotes.html">
+            <span>报价</span>
+            <img class="more" src="images/more.png" alt="">          
+          </a>        
+        </li>
+        <li>
+          <a href="affiche.html">
+            <span>动态</span>
+            <img class="more" src="images/more.png" alt="">          
+          </a>      
+        </li>
+        <li>
+          <a href="help.html">
+            <span>帮助</span>
+            <img class="more" src="images/more.png" alt="">          
+          </a>           
+        </li>
+      </ul>
+    </aside> 
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/setFontSize.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <script>
+
+      // 调用导航相关事件
+      menuFunc();
+
+    </script>
+
+  </body>
+</html>
