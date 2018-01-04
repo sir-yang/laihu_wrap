@@ -130,10 +130,10 @@
 .application_img {
 	height: 1.6rem;	
 }
-.application_cont div.application_item:nth-child(even) {
+.application_cont a.application_item:nth-child(even) {
 	padding: .6rem .2rem 0 .25rem;
 }
-.application_cont div.application_item:nth-child(odd) {
+.application_cont a.application_item:nth-child(odd) {
 	padding: .6rem .25rem 0 .2rem;
 }
 
@@ -240,6 +240,7 @@
 	overflow: hidden;
 }
 .hotText_item {
+	display: block;
 	margin-top: .5rem;
 }
 .hotText_item > img {
@@ -417,7 +418,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.index_anli_item {
+.index_anli_list .index_anli_item {
 	width: 50%;
 	display: -webkit-flex;
 	-webkit-flex-direction: column;
@@ -425,7 +426,7 @@
 	flex-direction: column;
 	align-items: center;
 }
-.index_anli_item > img {
+.index_anli_list .index_anli_item > img {
 	width: 2.5rem;
 	height: 2.5rem;
 	margin-top: 1rem;
@@ -435,7 +436,7 @@
 	-o-border-radius: 50%;
 	border-radius: 50%;
 }
-.index_anli_item > span {
+.index_anli_list .index_anli_item > span {
 	font-size: .28rem;
 	color: #333333;
 }
