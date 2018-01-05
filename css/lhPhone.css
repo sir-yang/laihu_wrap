@@ -307,7 +307,7 @@
 }
 
 .index_case_box {
-	background: url('../images/case_bg.png');
+	background: url('../images/case/bg/bg_1.png');
 	background-size: 100% 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1762,4 +1762,12 @@ a:hover {
 }
 .lottery_view_list img:nth-child(even) {
 	padding-left: .15rem;
+}
+
+/*砸金蛋*/
+.hitegg_bg {background: #f5b355;}
+.apply_box .hitegg_logo {
+	width: 5.58rem;
+	margin-top: .4rem;
+	margin-bottom: .55rem;
 }
