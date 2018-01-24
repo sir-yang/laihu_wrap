@@ -302,11 +302,37 @@ html {
 	width: .8rem;
 	height: .8rem;
 	background: #ffffff;
+	z-index: 10;
 }
 .backTop img {
 	width: 100%;
 }
 
+.goHome {
+	position: fixed;
+	bottom: 1rem;
+	right: .5rem;
+	width: .8rem;
+	height: .8rem;
+	z-index: 10;
+	background: #ffffff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.goHome a {
+	display: block;
+	text-align: center;
+	font-size: .16rem;
+	word-wrap: break-word;
+	line-height: .8rem;
+	color: #337ab7;
+}
+.goHome a:hover,
+.goHome a:link {
+	color: #337ab7;
+}
 
 /*标题下划线*/
 .title_down_line {
