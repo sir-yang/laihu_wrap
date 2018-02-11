@@ -476,6 +476,10 @@ html {
 	padding-top: .2rem;
 	padding-bottom: .2rem;
 }
+.plr30 {
+	padding-left: .3rem;
+	padding-right: .3rem;
+}
 
 /*间距*/
 .spacing {

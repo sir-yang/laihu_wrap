@@ -1585,6 +1585,7 @@ a:hover {
 	color: #999;
 	line-height: .4rem;
 	margin-bottom: .45rem;
+	text-align: center;
 }
 
 .tg_process_box {
@@ -1771,3 +1772,15 @@ a:hover {
 	margin-top: .4rem;
 	margin-bottom: .55rem;
 }
+
+/*语音口令红包*/
+.voice_bg {background: #ff4b4b;}
+.apply_box .voice_logo {
+	width: 4.62rem;
+	height: 4.46rem;
+	margin-bottom: .55rem;
+}
+
+.hb_list .channel_bg {
+	background: #ff9b9b;
+}  
