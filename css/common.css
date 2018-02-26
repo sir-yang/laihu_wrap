@@ -257,7 +257,7 @@ html {
 	flex-wrap: wrap;
 	padding-left: 0;
 	margin: .25rem 0;
-	margin-left: 1.15rem;
+	margin-left: 1rem;
 }
 .footer_item_cont ul:first-child {
 	margin-left: 0;
@@ -302,12 +302,14 @@ html {
 	width: .8rem;
 	height: .8rem;
 	background: #ffffff;
+	border: 1px solid #ccc;
 	z-index: 10;
 }
 .backTop img {
 	width: 100%;
 }
 
+/*回到首页*/
 .goHome {
 	position: fixed;
 	bottom: 1rem;
@@ -334,10 +336,12 @@ html {
 	color: #337ab7;
 }
 
+
 /*标题下划线*/
 .title_down_line {
 	width: .66rem;
-	height: .03rem;
+	height: 2px;
+	/*height: .03rem;*/
 	background: #333;
 	margin: auto;
 	margin-top: .3rem;
@@ -449,14 +453,17 @@ html {
 .mb-30 {
 	margin-bottom: .3rem;
 }
+.mt-40 {
+	margin-top: .4rem;
+}
+.mb-40 {
+	margin-bottom: .4rem;
+}
 .mb-70 {
 	margin-bottom: .7rem;
 }
 .mt-100 {
 	margin-top: 1rem;
-}
-.mb-100 {
-	margin-bottom: 1rem;
 }
 .mtb-100 {
 	margin-top: 1rem;
@@ -476,6 +483,7 @@ html {
 	padding-top: .2rem;
 	padding-bottom: .2rem;
 }
+
 .plr30 {
 	padding-left: .3rem;
 	padding-right: .3rem;
