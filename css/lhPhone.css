@@ -2042,3 +2042,33 @@ a:hover {
 .turn_channel_list .channel_txt_box {
 	padding: 0 .48rem;
 }
+
+/*积分*/
+.integral_bg { background: #05cadc; }
+.apply_box .integral_logo {
+	width: 4.7rem;
+	height: 4.74rem;
+}
+.integral_item_1 .channel_bg {
+	background: #a2c0fc;
+}
+.integral_item_1 .channel_img_1 {
+	width: 1.11rem;
+	height: .92rem;
+}
+
+.integral_item_2 .channel_bg {
+	background: #fca2bb;
+}
+.integral_item_2 .channel_img_2 {
+	width: .98rem;
+	height: .91rem;
+}
+
+.integral_item_3 .channel_bg {
+	background: #70e3a6;
+}
+.integral_item_3 .channel_img_3 {
+	width: .71rem;
+	height: .91rem;
+}
