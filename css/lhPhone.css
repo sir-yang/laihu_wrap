@@ -2072,3 +2072,55 @@ a:hover {
 	width: .71rem;
 	height: .91rem;
 }
+
+/*会员卡*/
+.member_bg { background: #c8a565; }
+.apply_box .member_logo {
+	width: 5.63rem;
+	height: 3.69rem;
+}
+.member_content_1 {
+	padding: .8rem .3rem;
+}
+.hy_cont_1_item .channel_img_1 {
+	width: 100%;
+	height: 3.14rem;
+	margin-top: .8rem;
+	-webkit-border-radius: .1rem;
+	-moz-border-radius: .1rem;
+	border-radius: .1rem;
+	-webkit-box-shadow: 0 0.02rem .2rem rgba(177, 140, 77, .4);
+	-moz-box-shadow: 0 0.02rem .2rem rgba(177, 140, 77, .4);
+	box-shadow: 0 0.02rem .2rem rgba(177, 140, 77, .4);
+}
+.hy_cont_1_item .channel_txt_box {
+	background: none;
+}
+.hy_cont_1_item .channel_txt_box span {
+	margin-bottom: 0;
+}
+
+.member_cont_2_item {
+	margin-top: .7rem;
+	padding: 0 .5rem;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+.member_cont_2_item img {
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-right: .3rem;
+}
+.member_cont_2_item h2 {
+	margin-top: 0;
+	margin-bottom: .15rem;
+}
+.member_cont_2_item p {
+	margin: 0;
+}
+
+
+.member_cont_3 .ticket_program_features_item span:last-child {
+	text-align: center;
+}
