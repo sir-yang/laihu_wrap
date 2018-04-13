@@ -483,7 +483,10 @@ html {
 	padding-top: .2rem;
 	padding-bottom: .2rem;
 }
-
+.plr10 {
+	padding-left: .1rem;
+	padding-right: .1rem;
+}
 .plr30 {
 	padding-left: .3rem;
 	padding-right: .3rem;
