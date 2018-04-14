@@ -2404,3 +2404,15 @@ a:hover {
 	width: 1rem;
 	height: .96rem;
 }
+
+/*微预约*/
+.reserve_bg { background: #34c179; }
+.apply_box .reserve_logo {
+	width: 4.5rem;
+	height: 3.87rem;
+	margin-top: .4rem;
+	margin-bottom: .6rem;
+}
+.reserve_item_box .scenes_item {
+	width: 33.33%;
+}
