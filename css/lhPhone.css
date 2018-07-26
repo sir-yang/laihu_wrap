@@ -1741,29 +1741,6 @@ a:hover {
 	margin-top: .9rem;
 	margin-bottom: .8rem;
 }
-.lottery_view_pages {
-	padding: .7rem .3rem .6rem;
-}
-.lottery_view_list {
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: .6rem;
-}
-.lottery_view_list img {
-	width: 50%;
-	max-height: 6rem;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin-bottom: .4rem;
-}
-.lottery_view_list img:nth-child(odd) {
-	padding-right: .15rem;
-}
-.lottery_view_list img:nth-child(even) {
-	padding-left: .15rem;
-}
 
 /*砸金蛋*/
 .hitegg_bg {background: #f5b355;}
@@ -1976,7 +1953,6 @@ a:hover {
 	box-sizing: border-box;
 }
 
-
 /*万能表单*/
 .form_channel_box {
 	padding: .8rem .3rem .6rem;
@@ -2048,6 +2024,7 @@ a:hover {
 .apply_box .integral_logo {
 	width: 4.7rem;
 	height: 4.74rem;
+	margin-bottom: .5rem;
 }
 .integral_item_1 .channel_bg {
 	background: #a2c0fc;
@@ -2078,6 +2055,7 @@ a:hover {
 .apply_box .member_logo {
 	width: 5.63rem;
 	height: 3.69rem;
+	margin-bottom: .5rem;
 }
 .member_content_1 {
 	padding: .8rem .3rem;
@@ -2108,6 +2086,7 @@ a:hover {
 	align-items: center;
 }
 .member_cont_2_item img {
+	flex-shrink: 0;
 	width: 1.2rem;
 	height: 1.2rem;
 	margin-right: .3rem;
@@ -2124,6 +2103,7 @@ a:hover {
 .member_cont_3 .ticket_program_features_item span:last-child {
 	text-align: center;
 }
+
 
 /*oem*/
 .oem_banner {
@@ -2415,4 +2395,112 @@ a:hover {
 }
 .reserve_item_box .scenes_item {
 	width: 33.33%;
+}
+
+/*微拼车*/
+.carpool_bg { background: #ffad39; }
+.apply_box .carpool_logo {
+	width: 5.19rem;
+	height: 4.64rem;
+	margin-top: .7rem;
+	margin-bottom: .5rem;
+}
+.car_channel_list .car_channel_bg {
+	width: 100%;
+	height: 2.57rem;
+}
+.car_channel_list .car_channel_bg img {
+	width: 100%;
+	height: 100%;
+}
+.car_channel_list .channel_txt_box {
+	background: transparent;
+	padding: 0 .3rem;
+	-webkit-box-shadow: 0.05rem 0 .2rem rgba(0, 0, 0, .05);
+	-moz-box-shadow: 0.05rem 0 .2rem rgba(0, 0, 0, .05);
+	box-shadow: 0.05rem 0 .2rem rgba(0, 0, 0, .05);
+}
+
+/*商家入驻*/
+.settle_bg { background: #648ac8; }
+.apply_box .settle_logo {
+	width: 5.28rem;
+	height: 4.07rem;
+	margin-top: .58rem;
+	margin-bottom: .98rem;
+}
+.settle_item_1 .channel_img {
+	width: 100%;
+	height: 2.88rem;
+}
+.settle_item_1 .channel_txt_box {
+	background: transparent;
+}
+
+/*预约高级版*/
+.appointment_bg { background: #7e7bff; }
+.apply_box .appointment_logo {
+	width: 4.86rem;
+	height: 3.82rem;
+	margin-top: .34rem;
+	margin-bottom: 1.1rem;
+}
+.appointment_list img {
+	width: 100%;
+	height: 2.57rem;
+}
+
+/*房产中介*/
+.house_bg { background: #f15d45; }
+.apply_box .house_logo {
+	width: 4.87rem;
+	height: 3.91rem;
+	margin-top: .58rem;
+	margin-bottom: .5rem;
+}
+.house_item img {
+	width: 100%;
+	height: 2.57rem;
+}
+
+/*砍价*/
+.bargain_bg { background: #ff5f5f; }
+.apply_box .bargain_logo {
+	width: 5.02rem;
+	height: 3.57rem;
+	margin-top: .58rem;
+	margin-bottom: .5rem;
+}
+.bargain_item img {
+	width: 100%;
+	height: 2.57rem;
+}
+
+/*酒店预约*/
+.hotel_bg { background: #2dccb4; }
+.apply_box .hotel_logo {
+	width: 5.17rem;
+	height: 4.17rem;
+	margin-top: .58rem;
+	margin-bottom: .5rem;
+}
+.hotel_item img {
+	width: 100%;
+	height: 2.57rem;
+}
+
+/*福袋*/
+.bag_bg { background: #a452d9; }
+.apply_box .bag_logo {
+	width: 5.02rem;
+	height: 4.25rem;
+	margin-top: .7rem;
+	margin-bottom: .5rem;
+}
+.bag_item img {
+	width: 100%;
+	height: 2.57rem;
+}
+.bag_item .channel_txt_box {
+	padding: 0 .48rem;
 }

@@ -1,0 +1,130 @@
+
+.banner {
+	margin-top: 1.2rem;
+}
+.banner_img {
+	width: 100%;
+	height: 4.5rem;
+}
+.banner_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.application_desc {
+	line-height: .4rem;
+	margin-top: .2rem;
+	text-align: center;
+}
+.flex_start {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+.flex_between {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.flex_around {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.flex_column {
+	flex-direction: column;
+}
+.flex_items {
+	align-items: center;
+}
+.flex_shrink {
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+}
+
+.plan_cont {
+	padding-top: .6rem;
+}
+.plan_cont .prompt {
+	margin-top: .5rem;
+	margin-bottom: .1rem;
+	color: #b1b1b1;
+	font-size: .2rem;
+	text-align: center;
+}
+.plan_cont .plan_logo {
+	width: 100%;
+	height: 2.81rem;
+}
+.plan_cont .plan_intro {
+	margin-top: .25rem;
+	font-size: .20rem;
+	color: #666;
+	line-height: .36rem;
+}
+.plan_func_box h1 {
+	font-size: .3rem;
+	color: #333;
+	line-height: .4rem;
+	text-align: center;
+}
+.plan_func_box ul {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 .2rem;
+	margin: 0;
+}
+.plan_func_box ul li {
+	width: 25%;
+}
+.plan_func_box ul li img {
+	width: .23rem;
+	height: .23rem;
+}
+.plan_func_box ul li span {
+	margin-left: .1rem;
+	font-size: .2rem;
+	line-height: .63rem;
+	color: #666;
+}
+
+/*价格*/
+.plan_price_box {
+	padding: .4rem .3rem .7rem;
+	background: url('../images/plan_bg.png') no-repeat;
+	background-size: 150% 30%;
+	background-position: bottom;
+}
+.plan_price_box h2 {
+	font-size: .24rem;
+	color: #666;
+	text-align: center;
+	margin: 0;
+}
+.plan_price_box ul {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: .5rem;
+}
+.plan_price_box ul li {
+	width: 1.7rem;
+	height: 1.7rem;
+	background: url('../images/plan_price_bg.png') no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+.plan_price_box ul li p {
+	font-size: .2rem;
+	color: #666;
+	margin: 0;
+	line-height: 1.7rem;
+	text-align: center;
+}
+.plan_price_box ul li span {
+	font-size: .3rem;
+	color: #ff6800;
+}
