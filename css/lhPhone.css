@@ -2504,3 +2504,32 @@ a:hover {
 .bag_item .channel_txt_box {
 	padding: 0 .48rem;
 }
+
+/*答题*/
+.answer_bg { background: #8064ff; }
+.apply_box .answer_logo {
+	width: 5.12rem;
+	height: 3.75rem;
+	margin-top: .58rem;
+	margin-bottom: .5rem;
+}
+.answer_item img {
+	width: 100%;
+	height: 2.57rem;
+}
+.answer_item .channel_txt_box {
+	padding: 0 .48rem;
+}
+
+/*签到*/
+.signIn_bg { background: #ff6497; }
+.apply_box .signIn_logo {
+	width: 5.8rem;
+	height: 3.14rem;
+	margin-top: .58rem;
+	margin-bottom: .5rem;
+}
+.signIn_item img {
+	width: 100%;
+	height: 2.57rem;
+}
