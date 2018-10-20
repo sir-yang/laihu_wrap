@@ -491,6 +491,10 @@ html {
 	padding-left: .3rem;
 	padding-right: .3rem;
 }
+.plr40 {
+	padding-left: .4rem; 
+	padding-right: .4rem;
+}
 
 /*间距*/
 .spacing {
