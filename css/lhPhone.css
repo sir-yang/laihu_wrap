@@ -2560,14 +2560,14 @@ a:hover {
 }
 
 /*多门店点餐*/
-.catering_bg { background: #fb7f54; }
-.apply_box .catering_logo {
+.restaurants_bg { background: #fb7f54; }
+.apply_box .restaurants_logo {
 	width: 3.81rem;
 	height: 3.88rem;
 	margin-top: .9rem;
 	margin-bottom: .9rem;
 }
-.catering_item img {
+.restaurants_item img {
 	width: 100%;
 	height: 2.57rem;
 }
